@@ -1,5 +1,4 @@
-
-name: exemplo fulxo
+name: exemplo fluxo
 
 on:
   workflow_dispatch:
@@ -8,10 +7,10 @@ jobs:
   acao_inicial:
     runs-on: ubuntu-latest
     steps:
-     - name: imprime memssagem ola
+      - name: Imprime mensagem olá
         run: echo Hello, world!
-        
-      - name: Run a multi-line script
+      
+      - name: Executa script multi-linha
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
